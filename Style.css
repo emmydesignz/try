@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 10px 0px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 1rem;
+    padding: 10px 0px;
+}
+
+.img img{
+    padding-left: 1rem;
+    width: 500px;
+    height: 30rem;
+}
+
+.forms form{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    
+}
+.forms{
+    background-color: rgba(0, 0, 0, 0.587);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid #000000;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+        
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+}
+
+input{
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 6px;
+}
+
+::placeholder{
+    padding: 6px;
+    color: rgba(134, 115, 115, 0.905);
+}
+
+input[type=submit]{
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.794);
+    color: white;
+    margin-left: 120px;
+    height: 2.5rem;
+}
+
+input[type=submit]:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+.sign-with{
+    display: flex;
+    gap: 2rem;
+    justify-content: baseline;
+    color: white;
+}
+a img{
+    width: 30px;
+    gap: 20rem;
+    align-content: center;
+    color: white;
+}
+
+
+
